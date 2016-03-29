@@ -13,4 +13,16 @@ html {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 0;
+}
+
+#controls {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.95);
+  z-index: 1;
 }

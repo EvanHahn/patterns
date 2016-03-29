@@ -6,7 +6,9 @@
     "test": "standard"
   },
   "dependencies": {
-    "lodash": "^4.6.1"
+    "jquery": "^2.2.2",
+    "lodash": "^4.6.1",
+    "spectrum-colorpicker": "^1.8.0"
   },
   "devDependencies": {
     "auto-reload-brunch": "^2.0.0",
