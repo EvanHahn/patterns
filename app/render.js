@@ -15,15 +15,15 @@ module.exports = function render (state, canvas) {
   context.textAlign = 'center'
   context.textBaseline = 'middle'
 
-  var shouldBeOffset = false
-  var startX = Math.round((canvas.width % state.spacing) / 2)
-  var startY = Math.round((canvas.height % state.spacing) / 2)
+  var rowShouldBeOffset = false
+  var startX = -Math.round(canvas.width % state.spacing)
+  var startY = -Math.round(canvas.height % state.spacing)
   var endX = canvas.width + state.spacing
   var endY = canvas.height + state.spacing
   for (var y = startY; y < endY; y += state.spacing) {
     var x = startX
-    if (shouldBeOffset) { x = Math.round(x - (state.spacing / 2)) }
-    shouldBeOffset = !shouldBeOffset
+    if (rowShouldBeOffset) { x = Math.round(x - (state.spacing / 2)) }
+    rowShouldBeOffset = !rowShouldBeOffset
 
     for (; x < endX; x += state.spacing) {
       context.fillText(state.content, x, y)
