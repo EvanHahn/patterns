@@ -5,5 +5,11 @@ module.exports = {
     content: '★',
     fontSize: 30,
     spacing: 90
-  }
+  },
+  contents: [
+    '★',
+    '❤',
+    '■',
+    '◯'
+  ]
 }

@@ -3,6 +3,14 @@ html, body, #main-canvas {
   padding: 0;
 }
 
+input, select, button {
+  font: inherit;
+}
+
+.pull-right {
+  float: right;
+}
+
 html {
   font-family: "Open Sans", "Segoe UI", Avenir, Ubuntu, Tahoma, Verdana, Helvetica, sans-serif;
   font-size: 16pt;
@@ -23,6 +31,8 @@ html {
   left: 0;
   width: 100%;
   padding: 1em;
-  background-color: rgba(255, 255, 255, 0.95);
+  text-transform: lowercase;
+  background-color: rgba(255, 255, 255, 0.9);
   z-index: 1;
+  border-top: 1px solid #999;
 }

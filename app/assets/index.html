@@ -14,6 +14,22 @@
 <form id="controls">
   <label for="backgroundColor">Background color</label>
   <input name="backgroundColor" type="color">
+
+  <label for="color">Color</label>
+  <input name="color" type="color">
+
+  <label for="content">Symbol</label>
+  <select name="content"></select>
+
+  <label for="fontSize">Size</label>
+  <input name="fontSize" type="range" min="5" max="100" step="1">
+
+  <label for="spacing">Spacing</label>
+  <input name="spacing" type="range" min="30" max="200" step="5">
+
+  <div class="pull-right">
+    <button id="reset">Reset</button>
+  </div>
 </form>
 
 <canvas id="main-canvas"></canvas>

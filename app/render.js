@@ -2,6 +2,8 @@ var makeCanvasFillScreen = require('./lib/make-canvas-fill-screen')
 var querystring = require('querystring')
 
 module.exports = function render (state, canvas) {
+  state.spacing = parseInt(state.spacing)
+
   console.log('rendering', state)
 
   makeCanvasFillScreen(canvas)
