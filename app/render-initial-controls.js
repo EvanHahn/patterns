@@ -1,4 +1,3 @@
-var $ = require('jquery')
 var config = require('./config')
 require('spectrum-colorpicker')
 

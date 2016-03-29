@@ -17,6 +17,6 @@ module.exports = function ($controls, callback) {
 
   $controls.find('#reset').on('click', function () {
     callback(config.defaultState)
-    location.reload()
+    window.location.reload()
   })
 }
