@@ -31,5 +31,5 @@ module.exports = function render (state, canvas) {
     }
   }
 
-  location.hash = querystring.stringify(state)
+  window.location.hash = querystring.stringify(state)
 }
