@@ -1,0 +1,15 @@
+html, body, #main-canvas {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Open Sans", "Segoe UI", Avenir, Ubuntu, Tahoma, Verdana, Helvetica, sans-serif;
+  font-size: 16pt;
+}
+
+#main-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
