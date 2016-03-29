@@ -3,7 +3,7 @@ module.exports = {
     backgroundColor: '#fca089',
     color: '#ffffff',
     content: '★',
-    fontSize: 48,
+    fontSize: 30,
     spacing: 90
   }
 }
