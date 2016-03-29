@@ -2,10 +2,10 @@
   "private": true,
   "scripts": {
     "start": "brunch watch --server",
-    "build": "brunch build --production"
+    "build": "brunch build --production",
+    "test": "standard"
   },
   "dependencies": {
-    "knockout-es5": "^0.4.0",
     "lodash": "^4.6.1"
   },
   "devDependencies": {
@@ -14,6 +14,7 @@
     "clean-css-brunch": "^2.0.0",
     "css-brunch": "^2.0.0",
     "javascript-brunch": "^2.0.0",
+    "standard": "^6.0.8",
     "uglify-js-brunch": "^2.0.0"
   }
 }

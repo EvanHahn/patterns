@@ -1,4 +1,5 @@
 var makeCanvasFillScreen = require('./lib/make-canvas-fill-screen')
+var querystring = require('querystring')
 
 module.exports = function render (state, canvas) {
   console.log('rendering', state)
@@ -29,4 +30,6 @@ module.exports = function render (state, canvas) {
       context.fillText(state.content, x, y)
     }
   }
+
+  location.hash = querystring.stringify(state)
 }
