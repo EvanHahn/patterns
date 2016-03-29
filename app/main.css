@@ -6,6 +6,7 @@ html, body, #main-canvas {
 html {
   font-family: "Open Sans", "Segoe UI", Avenir, Ubuntu, Tahoma, Verdana, Helvetica, sans-serif;
   font-size: 16pt;
+  overflow: hidden;
 }
 
 #main-canvas {
