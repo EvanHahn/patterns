@@ -9,5 +9,4 @@ var state = config.defaultState
 window.addEventListener('resize', throttle(function () {
   render(state, canvas)
 }, 100))
-
 render(state, canvas)
